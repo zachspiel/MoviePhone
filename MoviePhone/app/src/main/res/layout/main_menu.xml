@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/welcome_to_moviephone"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Harkins"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/loadResultsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:ellipsize="none"
+        android:fontFamily="@font/roboto"
+        android:background="@color/colorAccent"
+        android:padding="15dp"
+        android:text="@string/see_all_movies_now_playing"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:textAlignment="viewStart"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:id="@+id/loadMoviesComingSoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:ellipsize="none"
+        android:fontFamily="@font/roboto"
+        android:padding="15dp"
+        android:text="@string/see_all_movies_coming_soon"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:textAlignment="viewStart"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="AMC Theatres"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+    <Button
+        android:id="@+id/loadAMCMovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:ellipsize="none"
+        android:fontFamily="@font/roboto"
+        android:padding="15dp"
+        android:text="@string/see_all_movies_now_playing"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:textAlignment="viewStart"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/loadAMCMoviesComingSoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:ellipsize="none"
+        android:fontFamily="@font/roboto"
+        android:padding="15dp"
+        android:text="@string/see_all_movies_coming_soon"
+        android:textAlignment="viewStart"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="15sp"/>
+</LinearLayout>
